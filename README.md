@@ -1,29 +1,37 @@
 # Mp3TitleChanger
 
-****���̃v���O������GitHub Copilot�ɂ��쐬����܂����B****
+****このプログラムはGitHub Copilotにより作成されました。****
 
-## �T�v
+## 概要
 
-`Mp3TitleChanger`�́A�w�肳�ꂽCSV�t�@�C���Ɋ�Â���MP3�t�@�C���̃^�C�g����ύX���A�I�v�V�����ŃA���o�������ύX����C#�v���O�����ł��B
+`Mp3TitleChanger`は、指定されたCSVファイルに基づいてMP3ファイルのタイトルを変更し、オプションでアルバム名も変更するC#プログラムです。
 
-## �g�p���@
+## 使用方法
+- 同じフォルダにMp3TitleChanger.exe、rename.csv、変更するmp3ファイルが存在する場合
+```cmd
+Mp3TitleChanger
+```
+- Mp3TitleChanger.exeがある場所にmp3ファイルの入ったmusicフォルダが存在する場合
+```cmd
+Mp3TitleChanger --dir music
+```
 
-### �R�}���h���C������(�C��)
+### コマンドライン引数(任意)
+- `--album <アルバム名>`: 指定するとすべてのMP3ファイルのアルバム名を指定されたアルバム名に変更します。
+- `--csv <CSVファイルパス>`: タイトル変更情報が含まれるCSVファイルのパスを指定します。デフォルトは`rename.csv`です。
+- `--dir <ディレクトリパス>`: MP3ファイルが含まれるディレクトリのパスを指定します。デフォルトはプログラムが存在するディレクトリです。
 
-- `--album <�A���o����>`: �w�肷��Ƃ��ׂĂ�MP3�t�@�C���̃A���o�������w�肳�ꂽ�A���o�����ɕύX���܂��B
-- `--csv <CSV�t�@�C���p�X>`: �^�C�g���ύX��񂪊܂܂��CSV�t�@�C���̃p�X���w�肵�܂��B�f�t�H���g��`rename.csv`�ł��B
-- `--dir <�f�B���N�g���p�X>`: MP3�t�@�C�����܂܂��f�B���N�g���̃p�X���w�肵�܂��B�f�t�H���g�̓v���O���������݂���f�B���N�g���ł��B
+### CSVファイル形式
 
-### CSV�t�@�C���`��
+CSVファイルは以下の形式である必要があります。
 
-CSV�t�@�C���͈ȉ��̌`���ł���K�v������܂��B
-
-��:
+例:
 ```csv
 OldTitle, NewTitle
 old1, new1
 old2, new2
 ```
-## ���C�Z���X
+## ライセンス
 
-���̃v���W�F�N�g��Creative Commons Zero v1.0 Universal���C�Z���X�̉��Ō��J����Ă��܂��B
+このプロジェクトはCreative Commons Zero v1.0 Universalライセンスの下で公開されています。
+3
