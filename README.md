@@ -6,12 +6,12 @@
 
 `Mp3TitleChanger`は、指定されたCSVファイルに基づいてMP3ファイルのタイトルを変更し、オプションでアルバム名も変更するC#プログラムです。
 
-## 使用方法
-- 同じフォルダにMp3TitleChanger.exe、rename.csv、変更するmp3ファイルが存在する場合
+## 使用方法(基本的にコマンドプロンプトまたはPowerShellをお使いください)
+- 同じフォルダにMp3TitleChanger.exe、rename.csv、変更するmp3ファイルが存在する場合は実行ファイルをダブルクリックまたは実行ファイルの入ったディレクトリで
 ```cmd
 Mp3TitleChanger
 ```
-- Mp3TitleChanger.exeがある場所にmp3ファイルの入ったmusicフォルダが存在する場合
+- Mp3TitleChanger.exeがある場所にmp3ファイルの入ったmusicフォルダが存在する場合は実行ファイルの入ったディレクトリで
 ```cmd
 Mp3TitleChanger --dir music
 ```
