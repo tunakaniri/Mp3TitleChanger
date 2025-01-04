@@ -12,8 +12,8 @@
 - ダブルクオーテーションで囲むと先頭と末尾のダブルクオーテーションは無視されます(その際ダブルクオーテーションの間にダブルクオーテーションが奇数個入っているとエラーになり、偶数個だとダブルクオーテーションが無視されます)。
 
 ## サンプル
-[极限委托](https://bfan.link/ji-xian-wei-tuo)の翻訳データ(公式翻訳があるもののみ(ソース: ゲーム内音楽プレイヤー, [極限依頼 | Sān-Z音楽制作の舞台裏 第1期](https://youtu.be/jM18qvxJWtA)))
-- [rename.csv](https://github.com/user-attachments/files/18278630/rename.csv)
+[极限委托](https://bfan.link/ji-xian-wei-tuo)の翻訳データ(公式翻訳があるもののみ)
+- [rename.csv](https://github.com/user-attachments/files/18305826/rename.csv)
 
 
 ## 使用方法(基本的にコマンドプロンプトから実行してください)
@@ -42,5 +42,6 @@ old1, new1
 old2, new2
 ```
 ## ライセンス
+
 
 このプロジェクトはCreative Commons Zero v1.0 Universalライセンスの下で公開されています。
