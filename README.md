@@ -14,6 +14,7 @@
 ## サンプル
 [极限委托](https://bfan.link/ji-xian-wei-tuo)の翻訳データ(公式翻訳があるもののみ)
 - [rename.csv](https://github.com/user-attachments/files/18305826/rename.csv)
+
 [极限委托：PV原声集](https://bfan.link/ji-xian-wei-tuo-pvyuan-sheng-ji-1)の翻訳データ(動画タイトルが一致しているもののみ)
 - [rename.csv](https://github.com/user-attachments/files/18364946/rename.csv)
 
