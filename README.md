@@ -13,10 +13,10 @@
 
 ## サンプル
 [极限委托](https://bfan.link/ji-xian-wei-tuo)の翻訳データ(公式翻訳があるもののみ)
-- [rename.csv](https://github.com/user-attachments/files/18305826/rename.csv)
+- [rename.csv](https://github.com/user-attachments/files/18507332/rename.csv)
 
 [极限委托：PV原声集](https://bfan.link/ji-xian-wei-tuo-pvyuan-sheng-ji-1)の翻訳データ(動画タイトルが一致しているもののみ)
-- [rename.csv](https://github.com/user-attachments/files/18364946/rename.csv)
+- [rename.csv](https://github.com/user-attachments/files/18507233/rename.csv)
 
 
 ## 使用方法(基本的にコマンドプロンプトから実行してください)
@@ -30,6 +30,7 @@ Mp3TitleChanger --dir music
 ```
 
 ### コマンドライン引数(任意)
+
 - `--album <アルバム名>`: 指定するとすべてのMP3ファイルのアルバム名を指定されたアルバム名に変更します。
 - `--csv <CSVファイルパス>`: タイトル変更情報が含まれるCSVファイルのパスを指定します。デフォルトは`rename.csv`です。
 - `--dir <ディレクトリパス>`: MP3ファイルが含まれるディレクトリのパスを指定します。デフォルトはプログラムが存在するディレクトリです。
@@ -38,7 +39,9 @@ Mp3TitleChanger --dir music
 
 CSVファイルは以下の形式である必要があります。
 
+
 例:
+
 ```csv
 OldTitle, NewTitle
 old1, new1
